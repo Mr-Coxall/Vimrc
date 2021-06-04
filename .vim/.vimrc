@@ -41,3 +41,5 @@ set background=dark     " configure Vim to use brighter colors
 set autoread            " autoreload the file in Vim if it has been changed outside of Vim
 filetype off            " Helps force plugins to load correctly when it is turned back on below
 
+" Add Vim native plugin support
+packloadall             " turn on Vim natice plugin support
