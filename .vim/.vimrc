@@ -32,14 +32,13 @@ set ignorecase          " ignore case when searching
 set smartcase           " when searching try to be smart about cases
 set magic               " for regular expressions turn magic on
 
-" Auto close for brackets
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+" Auto close for brackets and stuff
+inoremap "  ""<ESC>hli
+inoremap '  ''<ESC>hli
+inoremap (  ()<ESC>hli
+inoremap [  []<ESC>hli
+inoremap {  {}<ESC>hli
+
 
 " Spell checking
 " ==> Pressing ,ss will toggle and untoggle spell checking
