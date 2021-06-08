@@ -5,7 +5,6 @@
 " Basic configurations
 set nocompatible        " don't try to be vi compatible
 set number              " turn on line numbers
-set colorscheme delek   " set the color scheme
 set encoding=utf-8      " set encoding to UTF-8 (default was "latin1")
 set showmatch           " highlight matching parentheses / brackets [{()}]
 set ruler               " show line and column number of the cursor on right side of statusline
@@ -15,6 +14,7 @@ set textwidth=79        " so you do not go over 80 character max
 set wrap                " wrap lines
 set scrolloff=5         " show 5 lines above and below cursor
 syntax on               " turn on syntax highlighting
+colorscheme darkblue    " set the color scheme
 
 " Tab configuration
 set tabstop=4           " set tabs to 4 spaces
